@@ -229,6 +229,16 @@ h4 {
     border: 1px solid #EDEDED;
     padding: 39px 48px;
     margin: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+.donate-card:hover h6{
+    color: #3E3E3E;
+    background-color: #C6E4D6;
+}
+.dc2 h6{
+    color: #3E3E3E;
+    background-color: #C6E4D6;
 }
 .donate-form {
     display: flex;
