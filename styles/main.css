@@ -3,6 +3,153 @@
 /* Shared Styles */
 * {
     font-family: "Fira Sans", serif;
+    color: #000;
+}
+body{
+    margin: 0;
+    background-color: #F5F5F5;
+}
+header{
+    background-color: #F5F5F5;
+}
+.s {
+    width: 1280px;
+    margin: 0 auto;
+}
+.btn-primary{
+    font-size: 18px;
+    padding: 20px 30px;
+    background-color: #276A50;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 23px;
+}
+p{
+    color: #3E3E3E;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+.btn-tertiary{
+    padding: 11px 21px;
+    font-size: 16px;
+    background-color: #44A15C;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
 }
 
 
+
+
+
+
+
+/* Unique Style */
+.header-s {
+    padding-top: 100px;
+}
+.header-a {
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.header-cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+h5{
+    color: #677972 ;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;    
+}
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0;
+    max-width: 580px;
+}
+
+
+
+
+
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    column-gap: 30px;
+}
+.vision-card{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #D5E1F4;
+    height: 238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.vc2{
+    background-color: #C6E4D6;
+}
+.vc3{
+    background-color: #F7EBCE;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.vision-card p {
+    margin: 0 0 25px 0;
+}
+.vc1 .btn-tertiary{
+    background-color: #5390F5;
+}
+.vc3 .btn-tertiary{
+    background-color: #FEC23A;
+}
+
+
+.quote-a{
+    padding: 25px 20px;
+    border: 1px solid #DBDBDB;
+    border-radius: 16px;
+    background-color: white;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 12px
+}
+.quote-a p{
+    margin-bottom: 0px;
+}
+.quote-a h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3E3E3E;    
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.quote-a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E6E6E;
+}
